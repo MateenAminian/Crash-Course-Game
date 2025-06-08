@@ -1,0 +1,3 @@
+Put a respawn master object a 0,0,0
+Then place respawn child objects as children as the respawn master
+make sure each of the children are .25 units above the ground, otherwise the player gets randomly thrown into space

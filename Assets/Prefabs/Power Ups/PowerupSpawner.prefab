@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8081972751284313165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7227538382565247381}
+  - component: {fileID: 6190379100345764354}
+  m_Layer: 0
+  m_Name: PowerupSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7227538382565247381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8081972751284313165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6190379100345764354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8081972751284313165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3478ae26d1adda44d803bb3f4f9f21bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - {fileID: 5919341212439258593, guid: 9eaa50b7e39ba8748b7d50644e7cf68a, type: 3}
+  - {fileID: 4456327890570843896, guid: c65a8e34927fcf84cb626c7c705c0618, type: 3}
+  - {fileID: 4550612360069357083, guid: 26976c4aeb1ec9948a1a061b810ddf2f, type: 3}
+  - {fileID: 4778123464071184697, guid: 1947cd1fd1a2a234ea66836a1de20a77, type: 3}
+  - {fileID: 4797598131943527601, guid: eb0bccc0677d01446ac88d43bf8d8a83, type: 3}
+  - {fileID: 6426575187987655162, guid: ba0053f3e15d8784f905369e17930d53, type: 3}
+  - {fileID: 639344793914157891, guid: d3c4069f958c7794f91d7cc2f6f48526, type: 3}
+  - {fileID: 4962253326899183796, guid: e5064fb9f9972434bbe028f1bed4136f, type: 3}
+  - {fileID: 2151829527917489380, guid: 247d4176f0e588b46a830fd26ff04c15, type: 3}
+  - {fileID: 6426575187987655162, guid: 94666ac9a869a9e47b2a688801bc1c8b, type: 3}
+  - {fileID: 2151829527917489380, guid: 63d4853cec9f0fe48b7f191dae0506b2, type: 3}
+  - {fileID: 2151829527917489380, guid: 8063ab7a597b4b540858642780f185d7, type: 3}
+  MinimumTime: 10
+  MaximumTime: 30
